@@ -10,5 +10,7 @@ title: Blog list
 <h1>{{title}}</h1>
 
 {% for blogpost in collections.blog%}
-   <a href="{{blogpost.url}}">{{blogpost.url}}</a>
-{% endfor %}
+<p>
+    {{blogpost.data.title}} - <a href="{{blogpost.url}}">{{blogpost.url}}</a> - {{blogpost.data.rating }} ⭐️
+</p>
+{%endfor%}
