@@ -8,3 +8,7 @@ title: Blog list
 ---
 
 <h1>{{title}}</h1>
+
+{% for blogpost in collections.blog%}
+   <a href="{{blogpost.url}}">{{blogpost.url}}</a>
+{% endfor %}
