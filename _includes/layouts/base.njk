@@ -10,6 +10,16 @@
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap" rel="stylesheet">
+
+
   </head>
   <body>
     <header>
@@ -25,12 +35,27 @@
 
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
 
-   
-
       {{ content | safe }}
     </main>
 
-    <footer></footer>
+    <footer class="footer">
+  <!-- Social Media-->
+  <div class = "social-media">
+    <a href="https://twitter.com/NeilC98875055" class="fa fa-twitter"></a>
+    <a href="https://www.linkedin.com/in/neil-c-881955186/" class="fa fa-linkedin"></a>
+    <a href="https://github.com/neilchadders" class="fa fa-github"></a>
+  </div>  
+ 
+    <a class = "footer-tag" href="">Neil Chadwick | Web Developer</a>
+ 
+</footer>
+
+<!-- Footer -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <!-- Current page: {{ page.url | url }} -->
     <script>
