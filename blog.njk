@@ -12,8 +12,8 @@ title: Blog list
 {% for blogpost in collections.blog%}
 <p>
 
-    {% set postslist = collections.blog | head(-3) %}
-{% set postslistCounter = collections.blog | length %}
+    {% set postslist = collections.blog%}
+{% set postslistCounter = collections.blog %}
 {% include "postslist.njk" %}
     
    
