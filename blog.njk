@@ -12,5 +12,6 @@ title: Blog list
 {% for blogpost in collections.blog%}
 <p>
      <a href="{{blogpost.url}}">{{blogpost.data.title}}</a> 
+     <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
 </p>
 {%endfor%}
