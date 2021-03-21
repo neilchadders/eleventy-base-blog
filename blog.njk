@@ -11,7 +11,10 @@ title: Blog list
 
 {% for blogpost in collections.blog%}
 <p>
-<ol reversed class="postlist" style="counter-reset: start-from 5">
+
+    {% set postslist = collections.blog | head(-3) %}
+{% set postslistCounter = collections.blog | length %}
+{% include "postslist.njk" %}
     
    <a href="{{blogpost.url}}">{{blogpost.data.title}}</a> 
      <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
