@@ -13,9 +13,8 @@ title: Blog list
 <p>
 <ol reversed class="postlist" style="counter-reset: start-from 5">
     
-   <li>  <a href="{{blogpost.url}}">{{blogpost.data.title}}</a> 
+   <a href="{{blogpost.url}}">{{blogpost.data.title}}</a> 
      <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
-    </li>
-    </ol>
+    
 </p>
 {%endfor%}
