@@ -16,8 +16,7 @@ title: Blog list
 {% set postslistCounter = collections.blog | length %}
 {% include "postslist.njk" %}
     
-   <a href="{{blogpost.url}}">{{blogpost.data.title}}</a> 
-     <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+   
     
 </p>
 {%endfor%}
