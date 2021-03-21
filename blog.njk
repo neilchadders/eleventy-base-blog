@@ -11,7 +11,11 @@ title: Blog list
 
 {% for blogpost in collections.blog%}
 <p>
-     <a href="{{blogpost.url}}">{{blogpost.data.title}}</a> 
+<ol reversed class="postlist" style="counter-reset: start-from 5">
+    
+   <li>  <a href="{{blogpost.url}}">{{blogpost.data.title}}</a> 
      <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+    </li>
+    </ol>
 </p>
 {%endfor%}
