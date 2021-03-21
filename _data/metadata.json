@@ -1,10 +1,10 @@
 {
-  "title": "Your Blog Name",
+  "title": "Neil's Eleventy Blog",
   "url": "https://example.com/",
   "language": "en",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "description": "I am writing about my experiences as a Student on the Coders Guild Bootcamp.",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "I am writing about my experiences a Student on the Coders Guild Bootcamp.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://example.com/"
