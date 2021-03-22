@@ -9,7 +9,7 @@ title: Blog list
 
 <h1>{{title}}</h1>
 
-{% set maxPosts = collections.blog.length | min(All) %}
+{% set maxPosts = collections.blog.length%}
 {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}
 
 {% set postslist = collections.blog | head(-100) %}
