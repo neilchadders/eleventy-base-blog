@@ -3,8 +3,8 @@ layout: layouts/post.njk
 title: About Me
 templateClass: tmpl-post
 eleventyNavigation:
-  key: Projects
+  key: About Me
   order: 3
 ---
 
-Add my projects
+I am a person that writes stuff.
