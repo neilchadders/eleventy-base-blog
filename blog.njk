@@ -9,9 +9,13 @@ title: Blog list
 
 <h1>{{title}}</h1>
 
- {% set maxPosts = collections.blog.length) %}
-{% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}
+<p>
 
-{% set postslist = collections.blog | head(-3) %}
-{% set postslistCounter = collections.blog | length %}
+    {% set postslist = collections.blog%}
+
 {% include "postslist.njk" %}
+    
+   
+    
+</p>
+{%endfor%}
