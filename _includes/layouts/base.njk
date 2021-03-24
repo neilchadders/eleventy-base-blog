@@ -27,23 +27,52 @@
   <body>
     <header>
       
+<<<<<<< HEAD
+    <div class="jumbotron jumbotron-fluid">
+    
+=======
 
+<<<<<<< HEAD
       {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+=======
+     <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
+
+     <div class="jumbotron jumbotron-fluid">
+
+>>>>>>> 4caf05e925b83cce8c7ebcaaf3b2db3435b71a38
+>>>>>>> e704acd1812b49c6359b9370c93ce7f4d0da8df5
       <ul class="nav">
       {%- for entry in collections.all | eleventyNavigation %}
         <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
       {%- endfor %}
       </ul>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    <div class = "jumbotron-fluid">
+      <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
+    </div>
+    </header>
+
+  </div>
+=======
+<<<<<<< HEAD
+    </header>
+    </div>
+
+=======
+>>>>>>> e704acd1812b49c6359b9370c93ce7f4d0da8df5
 
       <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
 
 
     </header>
 
+>>>>>>> 4caf05e925b83cce8c7ebcaaf3b2db3435b71a38
 
     <div class = "container-fluid">
       <div class = "row">
-           <div class="col-6-md">
+           <div class="col-6">
 
     <h2>Hi, my name is name is Neil and I'm lokking to become a web developer</h2>
 
@@ -59,7 +88,7 @@
     </main>
            </div> 
 
-             <div class="col-6-md">
+             <div class="col-6">
   <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
  {{ content | safe }}
 
