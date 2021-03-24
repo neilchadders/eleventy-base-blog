@@ -1,10 +1,11 @@
 ---
 layout: layouts/post.njk
-title: About Me
+title: My Projects
 templateClass: tmpl-post
 eleventyNavigation:
-  key: About Me
+  key: My Projects
   order: 3
 ---
 
-I am a person that writes stuff.
+
+<a href="https://app.netlify.com/sites/clever-engelbart-802fb6/overview">Take a look</a>
