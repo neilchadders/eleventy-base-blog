@@ -4,11 +4,41 @@ eleventyNavigation:
   key: Home
   order: 1
 ---
-{% set maxPosts = collections.blog.length | min(3) %}
+ <div class = "container-fluid">
+      <div class = "row">
+           <div class="col-6">
+
+    <h2>Hi, my name is name is Neil and I'm lokking to become a web developer</h2>
+
+    <p class = "about-me">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+     
+    
+    </main>
+           </div> 
+
+             <div class="col-6">
+
+             {% set maxPosts = collections.blog.length | min(3) %}
 <h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1>
 
 {% set postslist = collections.blog | head(-3) %}
 {% set postslistCounter = collections.blog | length %}
 {% include "postslist.njk" %}
+
+           </div> 
+
+
+      </div>
+
+
+    </div>
+
+
 
 
