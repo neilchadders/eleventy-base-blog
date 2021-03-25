@@ -89,11 +89,7 @@ code {
   word-break: break-all;
 }
 
-li {
-  
-  padding: 20%;
-  margin: 20%;
-}
+
 
 .highlight-line {
   display: block;
@@ -146,6 +142,7 @@ li {
 }
 .nav-item {
   display: inline-block;
+  color: red;
 
   
 }
