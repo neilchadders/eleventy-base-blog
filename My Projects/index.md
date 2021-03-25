@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/home.njk
 title: My Projects
 templateClass: tmpl-post
 eleventyNavigation:
