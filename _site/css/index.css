@@ -241,9 +241,7 @@ a[href].post-tag:focus {
   margin-left: .1em;
 }
 
-.about-me {
-  text-decoration: line-through;
-}
+
 
 a[href].direct-link,
 a[href].direct-link:visited {

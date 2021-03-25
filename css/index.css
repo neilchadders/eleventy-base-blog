@@ -140,6 +140,8 @@ code {
 .nav-item {
   display: inline-block;
   margin-right: 1em;
+  margin-left: 10%;
+  margin-right: 25%;
 }
 .nav-item a[href]:not(:hover) {
   text-decoration: none;
