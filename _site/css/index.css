@@ -142,7 +142,7 @@ code {
 }
 .nav-item {
   display: inline-block;
-  color: red;
+
 
   
 }
@@ -240,6 +240,11 @@ a[href].post-tag:focus {
   font-style: normal;
   margin-left: .1em;
 }
+
+.about-me {
+  text-decoration: line-through;
+}
+
 a[href].direct-link,
 a[href].direct-link:visited {
   color: transparent;
