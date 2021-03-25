@@ -139,9 +139,9 @@ code {
 }
 .nav-item {
   display: inline-block;
-  margin-right: 1em;
-  padding-left: 5%;
-  padding-left: 5%;
+  margin-right: 30%;
+  margin-left: 30%;
+  
 }
 .nav-item a[href]:not(:hover) {
   text-decoration: none;
