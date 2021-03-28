@@ -128,19 +128,6 @@ footer{
 }
 
 /* Header */
-.home {
-  padding: 0 1rem;
-  float: left;
-  margin: 1rem 0; /* 16px /16 */
-  font-size: 1em; /* 16px /16 */
-}
-.home :link:not(:hover) {
-  text-decoration: none;
-  position: absolute;
-  margin-left: 10px;
-  margin-top: 10px;
-  font-size: 3em;
-}
 
 /* Nav */
 .nav {
