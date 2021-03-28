@@ -22,6 +22,14 @@ body {
   
  
 }
+
+a:hover {
+text-decoration: none;
+}
+a:active {
+text-decoration: none;
+}
+
 p:last-child {
   margin-bottom: 0;
 }
@@ -143,9 +151,7 @@ footer{
   margin-right: 1em;
 
 }
-.nav-item a[href]:not(:hover) {
-  text-decoration: none;
-}
+
 .nav-item-active {
   font-weight: 700;
   
@@ -231,22 +237,7 @@ a[href].post-tag:focus {
 }
 
 /* Direct Links / Markdown Headers */
-.direct-link {
-  font-family: sans-serif;
-  text-decoration: none;
-  font-style: normal;
-  margin-left: .1em;
-}
-a[href].direct-link,
-a[href].direct-link:visited {
-  color: transparent;
-}
-a[href].direct-link:focus,
-a[href].direct-link:focus:visited,
-:hover > a[href].direct-link,
-:hover > a[href].direct-link:visited {
-  color: #aaa;
-}
+.
 
 .about-me {
 
