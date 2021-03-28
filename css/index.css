@@ -11,6 +11,7 @@
 /* Global stylesheet */
 * {
   box-sizing: border-box;
+   background-color: #ffc93c;
 }
 
 html,
@@ -18,7 +19,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, system-ui, sans-serif;
-  background-color: #ffc93c;ß
+  background-color: #ffc93c;
  
 }
 p:last-child {
