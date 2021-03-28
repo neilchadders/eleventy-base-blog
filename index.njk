@@ -2,6 +2,7 @@
 layout: layouts/home.njk
 eleventyNavigation:
   key: Home
+  thumbnail: /images/uploads/ninja.jpg
   order: 1
 ---
  <div class = "container-fluid">
@@ -9,7 +10,7 @@ eleventyNavigation:
            <div class="col-6">
 
 
-    <img src = "linkedinme.jpeg" alt = "Pictire of Me">       
+   <img class = "me" src="{{ thumbnail | url }}"/>     
     <h2>Hi, my name is name is Neil. Welcome to my Eleventy Blog I created as part of The Coders Guild Jamstack Bootcamp.</h2>
 
     <p class = "about-me">I have been self-teaching Web Development since approximately November 2019 and see it as both a future career direction and a passion.
