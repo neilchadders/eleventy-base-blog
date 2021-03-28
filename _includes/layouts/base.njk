@@ -36,10 +36,10 @@
         <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
       {%- endfor %}
       </ul>
-    
-      <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
  
     </header>
+
+     <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
 
 
 

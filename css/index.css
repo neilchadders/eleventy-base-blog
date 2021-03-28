@@ -11,7 +11,7 @@
 /* Global stylesheet */
 * {
   box-sizing: border-box;
-   background-color: #ffc93c;
+ background-color: #f7ea00;
 }
 
 html,
@@ -19,7 +19,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, system-ui, sans-serif;
-  background-color: #ffc93c;
+  
  
 }
 p:last-child {
@@ -149,6 +149,7 @@ footer{
   float: left;
   margin-left: 3em;
   padding-top: 20px;
+  border-bottom: 2px solid black;
 }
 .nav-item {
   display: inline-block;
