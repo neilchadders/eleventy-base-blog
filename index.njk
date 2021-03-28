@@ -8,10 +8,11 @@ eleventyNavigation:
 ---
  <div class = "container-fluid">
       <div class = "row">
-           <div class="col-8">
+           <div class="col-md-8">
 
 
-       
+    <img source = "/_site/images/linkedinme.jpeg">   
+
     <h2>Hi, my name is name is Neil.</h2> 
 
     <h3>Welcome to my Eleventy Blog I created as part of The Coders Guild Jamstack Bootcamp.</h3>
@@ -25,7 +26,7 @@ eleventyNavigation:
 
      </div>
   
-             <div class="col-4">
+             <div class="col-md-4">
 
              {% set maxPosts = collections.blog.length | min(3) %}
 <h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1>
