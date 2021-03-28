@@ -255,3 +255,13 @@ a[href].direct-link:focus:visited,
 .about-me {
 
 }
+
+
+.fa{
+  padding: 2%;
+  color: black;
+  font-size: 30px;
+}
+.footer-tag {
+  color: black;
+}
