@@ -142,7 +142,8 @@ footer{
   padding: 0;
   list-style: none;
   float: left;
-  margin-left: 1em;
+  margin-left: 3em;
+  padding-top: 5%;
 }
 .nav-item {
   display: inline-block;
@@ -271,7 +272,7 @@ a[href].direct-link:focus:visited,
 .profile-picture{
     height: auto; 
     width: auto; 
-    max-width: 180px; 
+    max-width: 220px; 
     border:solid;
-    border-width: 5px;
+    border-width: 1px;
 }
