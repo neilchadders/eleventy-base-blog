@@ -1,18 +1,20 @@
 ---
 layout: layouts/home.njk
 eleventyNavigation:
-thumbnail: /images/uploads/ninja.jpg
+
   key: Home
 
   order: 1
 ---
  <div class = "container-fluid">
       <div class = "row">
-           <div class="col-6">
+           <div class="col-8">
 
 
-   <img class = "me" src="{{ thumbnail | url }}"/>     
-    <h2>Hi, my name is name is Neil. Welcome to my Eleventy Blog I created as part of The Coders Guild Jamstack Bootcamp.</h2>
+       
+    <h2>Hi, my name is name is Neil.</h2> 
+
+    <h3>Welcome to my Eleventy Blog I created as part of The Coders Guild Jamstack Bootcamp.</h3>
 
     <p class = "about-me">I have been self-teaching Web Development since approximately November 2019 and see it as both a future career direction and a passion.
 
@@ -23,7 +25,7 @@ thumbnail: /images/uploads/ninja.jpg
 
      </div>
   
-             <div class="col-6">
+             <div class="col-4">
 
              {% set maxPosts = collections.blog.length | min(3) %}
 <h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1>

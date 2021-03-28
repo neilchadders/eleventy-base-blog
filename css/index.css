@@ -91,7 +91,8 @@ code {
 footer{
   text-align: center;
   color: black;
-  margin-top: 2%;
+  margin-top: 5%;
+
 }
 
 .highlight-line {
@@ -265,4 +266,8 @@ a[href].direct-link:focus:visited,
 }
 .footer-tag {
   color: black;
+}
+
+.jumbotron {
+  color:red;
 }
