@@ -88,9 +88,10 @@ pre {
 code {
   word-break: break-all;
 }
-
-footer {
- 
+footer{
+  text-align: center;
+  color: black;
+  margin-top: 2%;
 }
 
 .highlight-line {
