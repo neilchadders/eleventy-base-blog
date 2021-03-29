@@ -31,8 +31,6 @@
 
       {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
 
-<div class="container">
-  <div class="jumbotron">
 
 
       <ul class="nav">
@@ -41,7 +39,9 @@
       {%- endfor %}
       </ul>
  
-   
+   <div class="container">
+  <div class="jumbotron">
+
 
      <h1 class="home"><a class="text-decoration-none" href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
 
