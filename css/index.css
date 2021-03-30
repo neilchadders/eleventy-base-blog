@@ -2,11 +2,9 @@
 
 /* Global stylesheet */
 * {
-  box-sizing: border-box;
- 
- font-family: 'Slabo 27px', serif;
- background-image: url(/img/texturedbrick.jpg);
- background-color: #f7ea00;
+    box-sizing: border-box;
+    font-family: 'Slabo 27px', serif;
+    background-color: #f7ea00;
 }
 
 html,
@@ -14,18 +12,18 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Slabo 27px', serif;
-   background-image: url(/img/texturedbrick.jpg);
+  
  background-color: #f7ea00;
   
 }
 
-p,
-.tmpl-post li,
-img {
+
+.tmpl-post
+{
   max-width: 37.5em; /* 600px /16 */
 }
-p,
-.tmpl-post li {
+
+.tmpl-post {
   line-height: 1.45;
 }
 
@@ -43,9 +41,9 @@ footer{
 
 .home {
   margin-left: 5px;
-  font-size: 6em;
+  font-size: 4em;
   color: #be0000;
-  font-weight: 800;
+  font-weight: 900;
 }
 
 /* Nav */
