@@ -27,34 +27,24 @@
   <body>
     
 <header>
-      
-    
-    
-
-      {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-
-
 
       <ul class="nav">
       {%- for entry in collections.all | eleventyNavigation %}
         <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a class="text-decoration-none" href="{{ entry.url | url }}">{{ entry.title }}</a></li>
       {%- endfor %}
       </ul>
- 
 
    <div class="container">
     <div class="jumbotron" style="background-color:#f7ea00">
 
 
-     <h1> <a class ="text-decoration-none">{{ metadata.title }}</a>
-     </h1>
+     <h1> <a>{{ metadata.title }}</a></h1>
 
 </div>
   </div>
  </header>
 
-
-
+<!---Recent Posts--->
              
   <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
  {{ content | safe }} </main{%>
