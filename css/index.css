@@ -5,6 +5,7 @@
   box-sizing: border-box;
  background-color: #f7ea00;
  font-family: 'Slabo 27px', serif;
+ background-image: url(/img/texturedbrick.jpg);
 }
 
 html,
@@ -12,7 +13,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Slabo 27px', serif;
-  background-image: url(/img/texturedbrick.jpg);
+  
 }
 
 p,
@@ -46,6 +47,14 @@ footer{
 
 }
 
+
+
+.home {
+  margin-left: 40px;
+  font-size: 2em;
+  color: #be0000;
+  font-weight: 800;
+}
 
 /* Nav */
 .nav {
