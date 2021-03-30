@@ -14,6 +14,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Slabo 27px', serif;
+   background-image: url(/img/texturedbrick.jpg);
+ background-color: #f7ea00;
   
 }
 
@@ -40,8 +42,8 @@ footer{
 
 
 .home {
-  margin-left: 40px;
-  font-size: 2em;
+  margin-left: 5px;
+  font-size: 6em;
   color: #be0000;
   font-weight: 800;
 }
@@ -167,6 +169,3 @@ a[href].post-tag:focus {
 }
 
 
-ul {
-  color: black;
-}
