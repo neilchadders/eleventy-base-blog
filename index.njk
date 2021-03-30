@@ -13,14 +13,11 @@ eleventyNavigation:
 
     <img class = "profile-picture" src = "/img/linkedinme.jpeg" alt ="picture of me">   
 
-    <h2 class = "about-me">Hi, my name is name is Neil. 
+    <h3 class = "about-me">Hi, my name is name is Neil.</h3>
 
-    <br class = "about-me">Welcome to my Eleventy Blog I created as part of The Coders Guild Jamstack Bootcamp.</h2>
+    <pclass = "about-me">Welcome to my Eleventy Blog I created as part of The Coders Guild Jamstack Bootcamp.</p>
 
-    <p class = "about-me">I have been self-teaching Web Development since approximately November 2019 and see it as both a future career direction and a passion.
-
-
-    <p class = "about-me">Have a look at my personal site <a href = "https://serene-lovelace-e57caa.netlify.app/">here</a> and feel free to get in touch.</p>
+    <p class = "about-me">To find out more about me, take a look at my personal site <a href = "https://serene-lovelace-e57caa.netlify.app/">here</a> and feel free to get in touch.</p>
 
     
 
@@ -29,7 +26,7 @@ eleventyNavigation:
              <div class="col-md-4">
 
              {% set maxPosts = collections.blog.length | min(3) %}
-<h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1>
+<h2>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h2>
 
 {% set postslist = collections.blog | head(-3) %}
 {% set postslistCounter = collections.blog | length %}
