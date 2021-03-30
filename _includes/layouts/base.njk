@@ -41,11 +41,12 @@
       {%- endfor %}
       </ul>
  
+
    <div class="container">
   <div class="jumbotron" style="background-color:#f7ea00;>
 
 
-     <h1 class="home"> <a class="text-decoration-none" href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
+     <h1> <a class ="text-decoration-none" href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
 
 </div>
   </div>
@@ -55,7 +56,7 @@
 
              
   <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
- {{ content | safe }}
+ {{ content | safe }} </main{%>
 
           
 
