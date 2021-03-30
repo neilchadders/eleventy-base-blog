@@ -167,4 +167,6 @@ a[href].post-tag:focus {
 }
 
 
-
+a , h1 {
+  color: black;
+}
