@@ -18,6 +18,11 @@ body {
 }
 
 
+.jumbotron{
+  margin-left: 40px;
+}
+
+
 .tmpl-post
 {
   max-width: 37.5em; /* 600px /16 */
