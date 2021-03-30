@@ -224,6 +224,7 @@ a[href].post-tag:focus {
 
 .about-me {
   margin-left: 40px;
+  margin-top: 10%;
 }
 
 
@@ -240,7 +241,7 @@ a[href].post-tag:focus {
     height: auto; 
     width: auto; 
     max-width: 220px; 
-    border:solid;
+  
     border-width: 1px;
     margin-left: 40px;
 }
