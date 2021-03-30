@@ -38,17 +38,13 @@
     <div class="jumbotron" style="background-color:#f7ea00">
 
 
-     <h1>My Eleventy Blog</h1>
-     
-
+    <h1 class="home"> <a class="text-decoration-none" href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
 </div>
   </div>
- </header>
-
-<!---Recent Posts--->
+ 
              
   <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
- {{ content | safe }} </main{%>
+ {{ content | safe }}
 
           
 
