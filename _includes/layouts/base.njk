@@ -28,20 +28,23 @@
     
 <header>
 
+  <!--Navbar-->
+
       <ul class="nav">
       {%- for entry in collections.all | eleventyNavigation %}
         <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a class="text-decoration-none" href="{{ entry.url | url }}">{{ entry.title }}</a></li>
       {%- endfor %}
       </ul>
 
+  <!--Jumbotron-->
+
    <div class="container">
-    <div class="jumbotron" style="background-color:#f7ea00">
-
-
-    <h1 class="home"> <a class="text-decoration-none" href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
-</div>
-  </div>
+      <div class="jumbotron" style="background-color:#f7ea00">
+        <h1 class="home">My Eleventy Blog</h1>
+        </div>
+      </div>
  
+ <!--Main Content-->
              
   <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
  {{ content | safe }}</main{%>
@@ -49,7 +52,7 @@
           
 
 
-
+<!-- footer-->
 
     <footer class="footer">
   <!-- Social Media-->
