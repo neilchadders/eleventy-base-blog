@@ -4,7 +4,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Slabo 27px', serif;
-    background-color: #f7ea00;
+    background-color: #dbf6e9
 }
 
 html,
@@ -13,7 +13,7 @@ body {
   margin: 0;
   font-family: 'Slabo 27px', serif;
   
- background-color: #f7ea00;
+  background-color: #dbf6e9
   
 }
 
@@ -46,7 +46,7 @@ p {
 
 .home {
   font-size: 5em;
-  color: #be0000;
+  color: #2b2e4a;
   font-weight: 900;
   text-align: center;
   margin-top: 7%;
@@ -60,7 +60,7 @@ p {
 .sub-head {
   font-size: 2.5em;
   font-weight: 900;
-  color: #be0000;
+  color: #2b2e4a;
 }
 
 /* Nav */
@@ -69,8 +69,10 @@ p {
   padding: 0;
   list-style: none;
   float: left;
-  margin-left: 40px;
+  margin-left: 0px;
   padding-top: 20px;
+
+
 
  
 }
@@ -80,6 +82,7 @@ p {
   margin-right: 2em;
   margin-left: 40px;
   font-size: 1.3em;
+ 
 
 
 }
@@ -110,9 +113,13 @@ p {
     width: auto; 
     max-width: 720px; 
     padding-left: 5%;
+    border: solid black 10px;
+
 }
 
-
+.recent-posts{
+  margin-left: 40px;
+}
 
 
 
@@ -149,6 +156,7 @@ p {
   text-underline-position: from-font;
   text-underline-offset: 0;
   text-decoration-thickness: 1px;
+  color: black;
 }
 .postlist-item-active .postlist-link {
   font-weight: bold;
@@ -174,16 +182,12 @@ p {
   text-decoration: none;
   line-height: 1.8;
 }
-a[href].post-tag,
-a[href].post-tag:visited {
-  color: inherit;
-}
-a[href].post-tag:hover,
-a[href].post-tag:focus {
-  background-color: var(--lightgray);
-}
-.postlist-item > .post-tag {
-  align-self: center;
-}
 
 
+.black{
+  color: black;
+}
+
+.profile-text{
+  font-size: 1.5em;
+}

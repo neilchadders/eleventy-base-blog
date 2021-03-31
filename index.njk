@@ -16,9 +16,24 @@ eleventyNavigation:
 
     <h2 class = "about-me sub-head">Hi, my name is name is Neil.</h2>
 
-    <p class = "about-me">Welcome to my Eleventy Blog I created as part of The Coders Guild Jamstack Bootcamp.</p>
+    <p class = "about-me profile-text">Welcome to my Eleventy Blog I created as part of The Coders Guild Jamstack Bootcamp.</p>
 
-    <p class = "about-me">To find out more about me, take a look at my personal site <a href = "https://serene-lovelace-e57caa.netlify.app/">here</a> and feel free to get in touch.</p>
+ <div class = "recent-posts">
+       {% set maxPosts = collections.blog.length | min(3) %}
+<h2 class = "sub-head">Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h2>
+
+{% set postslist = collections.blog | head(-3) %}
+{% set postslistCounter = collections.blog | length %}
+{% include "postslist.njk" %}
+
+</div>
+
+    <p class = "about-me profile-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.To find out more about me, take a look at my personal site <a class = "black" href = "https://serene-lovelace-e57caa.netlify.app/">here</a> and feel free to get in touch.</p>
 
     </div>
 
@@ -30,14 +45,9 @@ eleventyNavigation:
 
      </div>
   
-             <div class="col-md-3">
+             <div class= "col-md-3 recent-posts">
 
-             {% set maxPosts = collections.blog.length | min(3) %}
-<h2 class = "sub-head">Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h2>
-
-{% set postslist = collections.blog | head(-3) %}
-{% set postslistCounter = collections.blog | length %}
-{% include "postslist.njk" %}
+          
 
         
 

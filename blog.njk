@@ -7,7 +7,8 @@ eleventyNavigation:
 title: Blog list
 ---
 
-<h1>{{title}}</h1>
+<div class= "recent-posts">
+<h2 class = "sub-head">{{title}}</h2>
 
 {% set maxPosts = collections.blog.length%}
 {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}
@@ -15,3 +16,5 @@ title: Blog list
 {% set postslist = collections.blog | head(-100) %}
 {% set postslistCounter = collections.blog | length %}
 {% include "postslist.njk" %}
+
+</div>
