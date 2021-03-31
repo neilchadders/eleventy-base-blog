@@ -12,7 +12,6 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Slabo 27px', serif;
-  
   background-color: #dbf6e9
   
 }
@@ -23,14 +22,6 @@ footer{
   color: black;
   margin-top: 5%;
 
-}
-
-p {
-
-}
-
-.jumbotron{
-  margin-left: 40px;
 }
 
 
@@ -70,11 +61,7 @@ p {
   list-style: none;
   float: left;
   margin-left: 0px;
-  padding-top: 20px;
-
-
-
- 
+  padding-top: 20px; 
 }
 
 .nav-item {
@@ -82,8 +69,6 @@ p {
   margin-right: 2em;
   margin-left: 40px;
   font-size: 1.3em;
- 
-
 
 }
 
@@ -113,13 +98,25 @@ p {
     width: auto; 
     max-width: 720px; 
     padding-left: 5%;
-    
+
 
 }
 
 .recent-posts{
   margin-left: 40px;
 }
+
+
+.black{
+  color: black;
+}
+
+.profile-text{
+  font-size: 1.5em;
+  margin-bottom: 5em;
+
+}
+
 
 
 
@@ -184,10 +181,4 @@ p {
 }
 
 
-.black{
-  color: black;
-}
 
-.profile-text{
-  font-size: 1.5em;
-}
