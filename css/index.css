@@ -190,5 +190,12 @@ label{
   line-height: 1.8;
 }
 
+.screenshot {
 
+  height: auto; 
+    width: auto; 
+    max-width: 350px; 
+    border:solid;
+    border-width: 5px;
+}
 
