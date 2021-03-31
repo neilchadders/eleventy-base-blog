@@ -18,6 +18,17 @@ body {
 }
 
 
+footer{
+  text-align: center;
+  color: black;
+  margin-top: 5%;
+
+}
+
+p {
+
+}
+
 .jumbotron{
   margin-left: 40px;
 }
@@ -33,40 +44,43 @@ body {
 }
 
 
-
-
-footer{
+.home {
+  font-size: 5em;
+  color: #be0000;
+  font-weight: 900;
   text-align: center;
-  color: black;
-  margin-top: 5%;
-
+  margin-top: 7%;
 }
 
 
+.jumbotron {
+  margin-left: 30px;
+}
 
-.home {
-  margin-left: 5px;
-  font-size: 4em;
-  color: #be0000;
+.sub-head {
+  font-size: 2.5em;
   font-weight: 900;
+  color: #be0000;
 }
 
 /* Nav */
+
 .nav {
   padding: 0;
   list-style: none;
   float: left;
   margin-left: 40px;
   padding-top: 20px;
+
  
 }
 
 .nav-item {
   display: inline-block;
   margin-right: 2em;
-  color: black;
-  font-size: 1em;
   margin-left: 40px;
+  font-size: 1.3em;
+
 
 }
 
@@ -88,16 +102,17 @@ footer{
 
 .about-me {
   margin-left: 40px;
-  margin-top: 10%;
+  margin-top: 0;
 }
 
 .profile-picture {
     height: auto; 
     width: auto; 
-    max-width: 220px; 
-    border-width: 1px;
-    margin-left: 40px;
+    max-width: 720px; 
+    padding-left: 5%;
 }
+
+
 
 
 

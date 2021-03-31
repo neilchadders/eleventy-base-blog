@@ -3,44 +3,94 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Blog Name</title>
-    <meta name="description" content="I am writing about my experiences as a naval navel-gazer.">
+    <title>Neil&#39;s Eleventy Blog</title>
+    <meta name="description" content="I am writing about my experiences as a Student on the Coders Guild Bootcamp.">
     <link rel="stylesheet" href="/css/index.css">
-    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
-    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Your Blog Name">
-    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Your Blog Name">
+    <link rel="stylesheet" href="/css/prism.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Neil&#39;s Eleventy Blog">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Neil&#39;s Eleventy Blog">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+ 
+
+
   </head>
+ 
   <body>
-    <header>
-      <h1 class="home"><a href="/">Your Blog Name</a></h1>
+    
+<header>
+
+  <!--Navbar-->
+
       <ul class="nav">
-        <li class="nav-item"><a href="/">Home</a></li>
-        <li class="nav-item"><a href="/posts/">Archive</a></li>
-        <li class="nav-item"><a href="/about/">About Me</a></li>
+        <li class="nav-item"><a class="text-decoration-none" href="/">Home</a></li>
+        <li class="nav-item"><a class="text-decoration-none" href="/My Projects/">My Projects</a></li>
+        <li class="nav-item"><a class="text-decoration-none" href="/Contact/">Contact</a></li>
+        <li class="nav-item"><a class="text-decoration-none" href="/Jamstack Projects/">Jamstack Projects</a></li>
+        <li class="nav-item"><a class="text-decoration-none" href="/blog/">Blog</a></li>
       </ul>
-    </header>
 
-    <main class="tmpl-home">
+  <!--Jumbotron-->
 
-      <!-- Delete this message -->
-      <div class="warning">
-        <ol>
-          <li>Edit the <code>_data/metadata.json</code> with your blog’s information.</li>
-          <li>(Optional) Edit <code>.eleventy.js</code> with your <a href="https://www.11ty.dev/docs/config/">configuration preferences</a>.</li>
-          <li>Delete this message from <code>_includes/layouts/base.njk</code>.</li>
-        </ol>
-        <p><em>This is an <a href="https://www.11ty.dev/">Eleventy project</a> created from the <a href="https://github.com/11ty/eleventy-base-blog"><code>eleventy-base-blog</code> repo</a>.</em></p>
+   <div class="container-fluid">
+      <div class="jumbotron" style="background-color:#f7ea00">
+        <h1 class="home">My Eleventy Blog</h1>
+        </div>
       </div>
-      <!-- Stop deleting -->
-
-      <h1 id="content-not-found.">Content not found. <a class="direct-link" href="#content-not-found.">#</a></h1>
+  
+ <!--Main Content-->
+             
+  <main class="tmpl-home">
+ <h1 id="content-not-found.">Content not found. <a class="direct-link" href="#content-not-found.">#</a></h1>
 <p>Go <a href="/">home</a>.</p>
 
 
-    </main>
 
-    <footer></footer>
+
+
+          
+
+
+<!-- footer-->
+
+    <footer class="footer">
+  <!-- Social Media-->
+  <div class = "social-media">
+    <a href="https://twitter.com/NeilC98875055" class="fa fa-twitter fa-2x"></a>
+    <a href="https://www.linkedin.com/in/neil-c-881955186/" class="fa fa-linkedin fa-2x"></a>
+    <a href="https://github.com/neilchadders" class="fa fa-github fa-2x"></a>
+  </div>  
+ 
+    <a class = "footer-tag" href="https://serene-lovelace-e57caa.netlify.app">Neil Chadwick | Web Developer</a>
+ 
+</footer>
+
+<!-- Footer -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <!-- Current page: /404.html -->
+    <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
   </body>
 </html>

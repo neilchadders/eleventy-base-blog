@@ -22,42 +22,87 @@
   </url>
   
   <url>
-    <loc>https://example.com/about/</loc>
+    <loc>https://example.com/blog/add-crm-to-the-site/</loc>
     <lastmod>2021-03-20</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/</loc>
-    <lastmod>2021-03-20</lastmod>
+    <loc>https://example.com/blog/mastering-github/</loc>
+    <lastmod>2021-03-21</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/blog/trying-the-new-stuff/</loc>
+    <lastmod>2021-03-21</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/blog/and-again/</loc>
+    <lastmod>2021-03-21</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/blog/getting-there/</loc>
+    <lastmod>2021-03-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/Contact/</loc>
+    <lastmod>2021-03-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/Jamstack%20Projects/</loc>
+    <lastmod>2021-03-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/My%20Projects/</loc>
+    <lastmod>2021-03-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/admin/</loc>
+    <lastmod>2021-03-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/blog/</loc>
+    <lastmod>2021-03-29</lastmod>
   </url>
   
   <url>
     <loc>https://example.com/</loc>
-    <lastmod>2021-03-20</lastmod>
+    <lastmod>2021-03-29</lastmod>
   </url>
   
   <url>
     <loc>https://example.com/page-list/</loc>
-    <lastmod>2021-03-20</lastmod>
+    <lastmod>2021-03-29</lastmod>
   </url>
   
   <url>
     <loc>https://example.com/tags/</loc>
-    <lastmod>2021-03-20</lastmod>
+    <lastmod>2021-03-29</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/another-tag/</loc>
-    <lastmod>2021-03-20</lastmod>
+    <loc>https://example.com/tags/blog/</loc>
+    <lastmod>2021-03-29</lastmod>
   </url>
   
   <url>
     <loc>https://example.com/tags/number-2/</loc>
-    <lastmod>2021-03-20</lastmod>
+    <lastmod>2021-03-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/another-tag/</loc>
+    <lastmod>2021-03-29</lastmod>
   </url>
   
   <url>
     <loc>https://example.com/tags/second-tag/</loc>
-    <lastmod>2021-03-20</lastmod>
+    <lastmod>2021-03-29</lastmod>
   </url>
 </urlset>

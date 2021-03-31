@@ -3,28 +3,53 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Blog Name</title>
-    <meta name="description" content="I am writing about my experiences as a naval navel-gazer.">
+    <title>Neil&#39;s Eleventy Blog</title>
+    <meta name="description" content="I am writing about my experiences as a Student on the Coders Guild Bootcamp.">
     <link rel="stylesheet" href="/css/index.css">
-    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
-    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Your Blog Name">
-    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Your Blog Name">
+    <link rel="stylesheet" href="/css/prism.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Neil&#39;s Eleventy Blog">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Neil&#39;s Eleventy Blog">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+ 
+
+
   </head>
+ 
   <body>
-    <header>
-      <h1 class="home"><a href="/">Your Blog Name</a></h1>
+    
+<header>
+
+  <!--Navbar-->
+
       <ul class="nav">
-        <li class="nav-item"><a href="/">Home</a></li>
-        <li class="nav-item"><a href="/posts/">Archive</a></li>
-        <li class="nav-item"><a href="/about/">About Me</a></li>
+        <li class="nav-item"><a class="text-decoration-none" href="/">Home</a></li>
+        <li class="nav-item"><a class="text-decoration-none" href="/My Projects/">My Projects</a></li>
+        <li class="nav-item"><a class="text-decoration-none" href="/Contact/">Contact</a></li>
+        <li class="nav-item"><a class="text-decoration-none" href="/Jamstack Projects/">Jamstack Projects</a></li>
+        <li class="nav-item"><a class="text-decoration-none" href="/blog/">Blog</a></li>
       </ul>
-    </header>
 
-    <main class="tmpl-home">
+  <!--Jumbotron-->
 
-     
-
-      <table>
+   <div class="container-fluid">
+      <div class="jumbotron" style="background-color:#f7ea00">
+        <h1 class="home">My Eleventy Blog</h1>
+        </div>
+      </div>
+  
+ <!--Main Content-->
+             
+  <main class="tmpl-home">
+ <table>
   <thead>
     <th>URL</th>
     <th>Page Title</th>
@@ -47,12 +72,44 @@
     <td>This is my fourth post.</td>
   </tr>
   <tr>
-    <td><a href="/about/"><code>/about/</code></a></td>
-    <td>About Me</td>
+    <td><a href="/blog/add-crm-to-the-site/"><code>/blog/add-crm-to-the-site/</code></a></td>
+    <td>Add CRM to the site</td>
   </tr>
   <tr>
-    <td><a href="/posts/"><code>/posts/</code></a></td>
+    <td><a href="/blog/mastering-github/"><code>/blog/mastering-github/</code></a></td>
+    <td>Mastering Github</td>
+  </tr>
+  <tr>
+    <td><a href="/blog/trying-the-new-stuff/"><code>/blog/trying-the-new-stuff/</code></a></td>
+    <td>Trying the new stuff!</td>
+  </tr>
+  <tr>
+    <td><a href="/blog/and-again/"><code>/blog/and-again/</code></a></td>
+    <td>And again....</td>
+  </tr>
+  <tr>
+    <td><a href="/blog/getting-there/"><code>/blog/getting-there/</code></a></td>
+    <td>Getting there!</td>
+  </tr>
+  <tr>
+    <td><a href="/Contact/"><code>/Contact/</code></a></td>
+    <td>Contact</td>
+  </tr>
+  <tr>
+    <td><a href="/Jamstack Projects/"><code>/Jamstack Projects/</code></a></td>
+    <td>Jamstack Projects</td>
+  </tr>
+  <tr>
+    <td><a href="/My Projects/"><code>/My Projects/</code></a></td>
+    <td>My Projects</td>
+  </tr>
+  <tr>
+    <td><a href="/admin/"><code>/admin/</code></a></td>
     <td></td>
+  </tr>
+  <tr>
+    <td><a href="/blog/"><code>/blog/</code></a></td>
+    <td>Blog list</td>
   </tr>
   <tr>
     <td><a href="/"><code>/</code></a></td>
@@ -63,12 +120,16 @@
     <td></td>
   </tr>
   <tr>
-    <td><a href="/tags/another-tag/"><code>/tags/another-tag/</code></a></td>
-    <td>Tagged “another tag”</td>
+    <td><a href="/tags/blog/"><code>/tags/blog/</code></a></td>
+    <td>Tagged “blog”</td>
   </tr>
   <tr>
     <td><a href="/tags/number-2/"><code>/tags/number-2/</code></a></td>
     <td>Tagged “number 2”</td>
+  </tr>
+  <tr>
+    <td><a href="/tags/another-tag/"><code>/tags/another-tag/</code></a></td>
+    <td>Tagged “another tag”</td>
   </tr>
   <tr>
     <td><a href="/tags/second-tag/"><code>/tags/second-tag/</code></a></td>
@@ -78,10 +139,44 @@
 </table>
 
 
-    </main>
 
-    <footer></footer>
+
+
+          
+
+
+<!-- footer-->
+
+    <footer class="footer">
+  <!-- Social Media-->
+  <div class = "social-media">
+    <a href="https://twitter.com/NeilC98875055" class="fa fa-twitter fa-2x"></a>
+    <a href="https://www.linkedin.com/in/neil-c-881955186/" class="fa fa-linkedin fa-2x"></a>
+    <a href="https://github.com/neilchadders" class="fa fa-github fa-2x"></a>
+  </div>  
+ 
+    <a class = "footer-tag" href="https://serene-lovelace-e57caa.netlify.app">Neil Chadwick | Web Developer</a>
+ 
+</footer>
+
+<!-- Footer -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <!-- Current page: /page-list/ -->
+    <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
   </body>
 </html>
