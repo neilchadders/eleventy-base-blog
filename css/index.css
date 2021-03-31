@@ -25,6 +25,10 @@ footer{
 }
 
 
+label{
+  font-size: 1.5em;
+}
+
 .tmpl-post
 {
   max-width: 37.5em; /* 600px /16 */
@@ -113,12 +117,14 @@ footer{
 
 .profile-text{
   font-size: 1.5em;
-  
-
 }
 
 
-
+.form-main{
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 10%;
+}
 
 /* Posts list */
 .postlist {
