@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 3
 ---
 
-<p>Have a look at my personal site <a href="https://serene-lovelace-e57caa.netlify.app/index.html">here</a></p>
+<p class = "about-me profile-text">Have a look at my personal site <a href="https://serene-lovelace-e57caa.netlify.app/index.html">here</a></p>
 
 <div class = "container-fluid about-me profile-text">
  <div class="row about-me profile-text">
