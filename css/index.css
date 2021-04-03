@@ -213,3 +213,8 @@ label{
   padding-bottom: 10%;
 }
 
+.social-media-nav{
+  display: inline-block;
+  position: relative;
+  margin-left: 40px;
+}
