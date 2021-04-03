@@ -29,18 +29,21 @@
 <header>
 
   <!--Navbar-->
-
+<nav>
       <ul class="nav">
       {%- for entry in collections.all | eleventyNavigation %}
         <li class="black nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a class="black text-decoration-none" href="{{ entry.url | url }}">{{ entry.title }}</a></li>
       {%- endfor %}
-       <div class = "social-media-nav">
-    <a href="https://twitter.com/NeilC98875055" class="fa fa-twitter fa-2x"></a>
-    <a href="https://www.linkedin.com/in/neil-c-881955186/" class="fa fa-linkedin fa-2x"></a>
-    <a href="https://github.com/neilchadders" class="fa fa-github fa-2x"></a>
-  </div>  
+  
       </ul>
+        <div class = "social-media">
+          <a href="https://twitter.com/NeilC98875055" class="fa fa-twitter fa-2x"></a>
+          <a href="https://www.linkedin.com/in/neil-c-881955186/" class="fa fa-linkedin fa-2x"></a>
+          <a href="https://github.com/neilchadders" class="fa fa-github fa-2x"></a>
+  </div> 
 
+
+</nav>
   <!--Jumbotron-->
 
    <div class="container-fluid">

@@ -99,6 +99,8 @@ label{
 .about-me {
   margin-left: 40px;
   margin-top: 0;
+  margin-bottom: 20%;
+
 }
 
 .profile-picture {
@@ -213,8 +215,3 @@ label{
   padding-bottom: 10%;
 }
 
-.social-media-nav{
-  display: inline-block;
-  position: relative;
-  margin-right: 40px;
-}
